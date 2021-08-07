@@ -99,8 +99,9 @@ h1 {
 }
 
 .accent {
+    color: #0A1612;
     cursor: pointer;
-    transition: 250ms;
+    transition: color 250ms;
     margin-bottom: 25px;
     font-weight: 600;
     
@@ -140,6 +141,7 @@ a {
     width: 32px;
     height: 32px;
     opacity: 0.3;
+    transition: opacity 250ms;
   }
 
   .close:hover {
