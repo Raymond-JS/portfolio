@@ -197,6 +197,8 @@ a {
   transition: opacity, 500ms ease-in;
 }
 
+
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   nav span.navLink {
     margin: 0 auto; 
