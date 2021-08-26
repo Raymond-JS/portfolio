@@ -13,6 +13,9 @@ p {
   font-size: largest;
 }
 
+.bio {
+  text-align: justify;
+}
 .projects {
     width: 100vw; 
     height: 100vh; 
@@ -57,7 +60,9 @@ p {
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
+  justify-content: center;
     min-height: 200px;
+    /* border: 1px solid red; */
 }
 
 div.aboutInfo.visible {
@@ -129,6 +134,7 @@ a {
 .aboutInfo p {
     font-size: 1.2rem;
     text-align: justify;
+    margin-bottom: 150px;
 }
 
 

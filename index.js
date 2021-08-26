@@ -21,7 +21,7 @@ function print(location, text) {
           location.innerHTML += text[i];
           i++;
         }
-      }, 170);
+      }, 120);
     }
 
 
