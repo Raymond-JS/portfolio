@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
     about.classList.remove("hidden")
     footer.classList.add("visible")
     footer.classList.remove("hidden")
-  }, 2500)
+  }, 2000)
 });
 
 
