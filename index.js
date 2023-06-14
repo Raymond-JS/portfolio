@@ -9,7 +9,7 @@ const footer = document.querySelector("footer")
 
 
 const name = "Ray Johnson"
-const job = "web developer"
+const job = "Digital Media Consultant"
 
 function print(location, text) {  
     let i = 0;

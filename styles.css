@@ -16,6 +16,11 @@ p {
 .bio {
   text-align: justify;
 }
+
+.col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .projects {
     width: 100vw; 
     height: 100vh; 
@@ -215,4 +220,11 @@ a {
 }
 
  
+}
+
+@media (max-width: 48.5rem) {
+  .col {
+    grid-template-columns: 1fr;
+  }
+
 }
